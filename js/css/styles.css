@@ -82,11 +82,24 @@ header > nav > a{
     left: 0;
 }
 
-@keyframe opacidad {
-    from(
-        opacity 0.2
-    ) 
+@keyframes opacidad {
+    from{
+        opacity: 0.2;
+    }  
     to{
         opacity: 1;
     }
+}
+
+nav > select {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: var(--fondo);
+    color: black;
+    border: none;
+    font-size: medium;
+    background-color: --fondo;
+    font-family: 'Simpsonfont', sans-serif;
+    font-family: 'Akbar', sans-serif;
 }
